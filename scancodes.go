@@ -1,4 +1,4 @@
-// package scancodes computes the Set 1 (IBM PC XT) keyboard scancodes produced
+// Package scancodes computes the Set 1 (IBM PC XT) keyboard scancodes produced
 // by typing in a string.
 package scancodes
 
@@ -42,7 +42,7 @@ func ForSequence(sequence string) ([]int, error) {
   return codes, nil
 }
 
-// SequenceFor converts an input string into a sequence of keypresses.
+// SequenceForString converts an input string into a sequence of keypresses.
 func SequenceForString(input string) string {
   sequence := bytes.Buffer{}
   wroteFirst := false
