@@ -1,5 +1,7 @@
 # scancodes
 
+[![GoDoc](https://godoc.org/github.com/pwnall/scancodes?status.svg)](https://godoc.org/github.com/pwnall/scancodes)
+
 scancodes is a Go package that computes the Set 1 (IBM PC XT)
 [keyboard scancodes](http://en.wikipedia.org/wiki/Scancode) produced by a
 keyboard when a string is typed in.
