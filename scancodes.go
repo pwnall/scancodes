@@ -1,3 +1,5 @@
+// package scancodes computes the Set 1 (IBM PC XT) keyboard scancodes produced
+// by typing in a string.
 package scancodes
 
 import (
